@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image';
 import React, {useEffect, useState} from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
@@ -29,22 +30,33 @@ const Navbar = () => {
         style={{ backgroundColor: `${color}` }} 
         className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
     >
-        <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white '>
-            <Link href='/'>
-                <h1 style={{color: `${textColor}`}} className='font-normal text-4xl'>
-                Pilates With Nat
-                </h1>
-            </Link>
-            <ul style={{ color: `${textColor}` }} className='hidden sm:flex '>
-                <li className='p-4 hover:text-peach font-light'>
-                    <Link href='/'>Home</Link>
-                </li>
-                
-                <li className='p-4 hover:text-peach font-light'>
-                    <Link href='/contact'>Contact</Link>
-                </li>
-            </ul>
-
+        <div className='max-w-[1240px] m-auto flex justify-center p-4 text-white '>
+            <div class="flex-1">
+                <Image
+                src="/pilates-with-nat-icon-128x128.png"
+                width={80}
+                height={80}
+                alt="Pilates with Nat icon logo"
+                />
+            </div>
+            <div class="flex-auto">
+                <Link href='/'>
+                    <h1 style={{color: `${textColor}`}} className='font-normal text-4xl'>
+                    Pilates With Nat
+                    </h1>
+                </Link>
+            </div>
+            <div class="flex-3">
+                <ul style={{ color: `${textColor}` }} className='hidden sm:flex '>
+                    <li className='p-4 hover:text-peach font-light'>
+                        <Link href='/'>Home</Link>
+                    </li>
+                    
+                    <li className='p-4 hover:text-peach font-light'>
+                        <Link href='/contact'>Contact</Link>
+                    </li>
+                </ul>
+            </div>
             {/* Mobile Button */}
             <div onClick={handleNav} className='block sm:hidden z-100'>
                 {nav ? (
