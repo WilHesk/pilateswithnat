@@ -11,8 +11,8 @@ export default function Contact() {
       </Head>
       
       <div> 
-      <Page heading='Connect With Our Community' message="Please get in touch if you're thinking about coming to a class and I can talk you through things. I want you to feel comfortable and relaxed on your first visit so it's great if we can get to know each other a little bit first."
-      para="Please subscribe to my mailing list below and I'll get in touch. I won't send you loads of annoying emails, just information about classes when required and I've made the unsubscribe option really simple if you decide it's not for you! If you're the kind of person who needs to commit to motivate yourself, then you can purchase a 6 week block. Alternatively if you're not feeling confident to do that, just come and give it ago on a pay as you go basis. I'm all about finding what's best for you so normally I'd suggest a quick call first."/>   
+      <Page heading='Join Our Community' message="Please get in touch if you're thinking about coming to a class and I can talk you through things. I want you to feel comfortable and relaxed on your first visit so it's great if we can get to know each other a little bit first."
+      para="My website is under construction, so until I have a fancy form - please subscribe to my mailing list by sending me an email and I'll get in touch. I won't send you loads of emails, just information about classes. Thanks, hopefully speak to you soon!" message2="openmindedfitnessgroup@gmail.com"/>   
       
       </div>
     
