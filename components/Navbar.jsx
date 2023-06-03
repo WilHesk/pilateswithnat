@@ -66,9 +66,6 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-400'>
-                        <Link href='/#gallery'>Gallery</Link>
-                    </li>
-                    <li className='p-4 text-4xl hover:text-gray-400'>
                         <Link href='/contact'>Contact</Link>
                     </li>
                 </ul>
