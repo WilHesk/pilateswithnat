@@ -29,18 +29,18 @@ const Navbar = () => {
         style={{ backgroundColor: `${color}` }} 
         className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
     >
-        <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+        <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white '>
             <Link href='/'>
                 <h1 style={{color: `${textColor}`}} className='font-normal text-4xl'>
                 Pilates With Nat
                 </h1>
             </Link>
-            <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
-                <li className='p-4'>
+            <ul style={{ color: `${textColor}` }} className='hidden sm:flex '>
+                <li className='p-4 hover:text-peach font-light'>
                     <Link href='/'>Home</Link>
                 </li>
                 
-                <li className='p-4'>
+                <li className='p-4 hover:text-peach font-light'>
                     <Link href='/contact'>Contact</Link>
                 </li>
             </ul>
