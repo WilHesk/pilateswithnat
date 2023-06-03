@@ -11,7 +11,7 @@ export default function Contact() {
       </Head>
       
       <div> 
-      <Hero heading='Connect With Our Community' message="Please get in touch if you're thinking about coming to a class and I can talk you through things. I want you to feel comfortable and relaxed on your first visit so it's great if we can get to know each other a little bit first." button='Drop me a Message!'/>     
+      <Hero heading='Connect With Our Community' message="Please get in touch if you're thinking about coming to a class and I can talk you through things. I want you to feel comfortable and relaxed on your first visit so it's great if we can get to know each other a little bit first. Please subscribe to my mailing list below and I'll get in touch. I won't send you loads of annoying emails, just information about classes when required and I've made the unsubscribe option really simple if you decide it's not for you!"  button='Drop me a Message!' />   
       </div>
     
     </div>
