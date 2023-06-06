@@ -34,14 +34,14 @@ const Navbar = () => {
             <div class="flex-1">
                 <Image
                 src="/pilates-with-nat-icon-128x128.png"
-                width={80}
-                height={80}
+                width={60}
+                height={60}
                 alt="Pilates with Nat icon logo"
                 />
             </div>
             <div class="flex-auto">
                 <Link href='/'>
-                    <h1 style={{color: `${textColor}`}} className='font-normal text-4xl'>
+                    <h1 style={{color: `${textColor}`}} className= 'pt-4 text-2xl font-normal'>
                     Pilates With Nat
                     </h1>
                 </Link>

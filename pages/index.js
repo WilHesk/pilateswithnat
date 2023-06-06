@@ -7,10 +7,16 @@ export default function Home() {
     <div>
       <Head>
         <title>Pilates With Nat | Home</title>
-        <meta name="pilates with nat" content="pilates for every body" />
+        <meta name="pilates with nat" content="pilates for your body, for everybody" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading='Community Pilates' heading2='For Every Body'  message="When that voice inside your head is saying 'I can't' our community is here to gently remind you that YOU CAN" button='Try a class'/> 
+      <Hero 
+      heading='Community Pilates'
+      heading2='For Your Body, For Every Body'
+      message="When there's a voice inside your head is saying I CAN'T"
+      message2="Our community is here to gently remind you that YOU CAN" 
+      button='Try a class'
+      /> 
     </div>
   
   );
