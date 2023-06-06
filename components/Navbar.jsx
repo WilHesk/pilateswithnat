@@ -16,7 +16,7 @@ const Navbar = () => {
         const changeColor = () => {
             if (window.scrollY >= 90) {
                 setColor('#ffffff');
-                setTextColor('#000000');
+                setTextColor('#0E1B26');
             } else {
                 setColor('transparent');
                 setTextColor('#ffffff');
@@ -64,7 +64,7 @@ const Navbar = () => {
                 </ul>
             </div>
             {/* Mobile Button */}
-            <div onClick={handleNav} className='block sm:hidden z-100'>
+            <div onClick={handleNav} className='block sm:hidden z-10'>
                 {nav ? (
                     <AiOutlineClose size={20} style={{color: `${textColor}`}} /> 
                 ) : (
@@ -75,15 +75,15 @@ const Navbar = () => {
             <div 
                 className={
                     nav 
-                        ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-zinc-800 text-center ease-in duration-300' 
-                        : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
+                        ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center bg-dkblue items-center w-full h-screen bg-zinc-800 text-center ease-in duration-200' 
+                        : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center bg-dkblue items-center w-full h-screen bg-black text-center ease-in duration-300'
                 }
             >
                 <ul>
-                    <li className='p-4 text-4xl hover:text-gray-400'>
+                    <li className='p-4 text-4xl hover:text-peach'>
                         <Link href='/'>Home</Link>
                     </li>
-                    <li className='p-4 text-4xl hover:text-gray-400'>
+                    <li className='p-4 text-4xl hover:text-peach'>
                         <Link href='/contact'>Contact</Link>
                     </li>
                 </ul>
