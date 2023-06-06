@@ -30,23 +30,29 @@ const Navbar = () => {
         style={{ backgroundColor: `${color}` }} 
         className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
     >
-        <div className='max-w-[1240px] m-auto flex justify-center p-4 text-white '>
-            <div class="flex-1">
-                <Image
-                src="/pilates-with-nat-icon-128x128.png"
-                width={60}
-                height={60}
-                alt="Pilates with Nat icon logo"
-                />
-            </div>
-            <div class="flex-auto">
-                <Link href='/'>
-                    <h1 style={{color: `${textColor}`}} className= 'pt-4 text-2xl font-normal'>
-                    Pilates With Nat
-                    </h1>
-                </Link>
-            </div>
-            <div class="flex-3">
+        <div className='max-w-[1240px] m-auto flex flex-row justify-between p-3 text-white '>
+            
+        
+                <div class='flex'>
+                    <div class='flex pr-4'>
+                        <Image
+                        src="/pilates-with-nat-icon-128x128.png"
+                        width={60}
+                        height={60}
+                        alt="Pilates with Nat icon logo"
+                        />
+                    </div>
+                    
+                    <div class='flex'>
+                        <Link href='/'>
+                            <h1 style={{color: `${textColor}`}} className= 'pt-4 text-2xl font-normal'>
+                            Pilates With Nat
+                            </h1>
+                        </Link>
+                    </div>
+                </div>
+
+            <div class='flex'>
                 <ul style={{ color: `${textColor}` }} className='hidden sm:flex '>
                     <li className='p-4 hover:text-peach font-light'>
                         <Link href='/'>Home</Link>
