@@ -33,17 +33,20 @@ const Navbar = () => {
         <div className='max-w-[1240px] m-auto flex flex-row justify-between p-3 text-white '>
             
         
-                <div class='flex'>
-                    <div class='flex pr-4'>
-                        <Image
-                        src="/pilates-with-nat-icon-128x128.png"
-                        width={60}
-                        height={60}
-                        alt="Pilates with Nat icon logo"
-                        />
+                <div className='flex'>
+                    <div className='flex pr-4'>
+                        <Link href='/'>
+                            <Image
+                            
+                            src="/pilates-with-nat-icon-128x128.png"
+                            width={60}
+                            height={60}
+                            alt="Pilates with Nat icon logo"
+                            />
+                        </Link>
                     </div>
                     
-                    <div class='flex'>
+                    <div className='flex'>
                         <Link href='/'>
                             <h1 style={{color: `${textColor}`}} className= 'pt-4 text-2xl font-normal'>
                             Pilates With Nat
@@ -52,10 +55,14 @@ const Navbar = () => {
                     </div>
                 </div>
 
-            <div class='flex'>
+            <div className='flex'>
                 <ul style={{ color: `${textColor}` }} className='hidden sm:flex '>
                     <li className='p-4 hover:text-peach font-light'>
                         <Link href='/'>Home</Link>
+                    </li>
+
+                    <li className='p-4 hover:text-peach font-light'>
+                        <Link href='/blog'>Blog</Link>
                     </li>
                     
                     <li className='p-4 hover:text-peach font-light'>
@@ -80,10 +87,13 @@ const Navbar = () => {
                 }
             >
                 <ul>
-                    <li className='p-4 text-4xl hover:text-peach'>
+                    <li onClick={handleNav} className='p-4 text-4xl hover:text-peach'>
                         <Link href='/'>Home</Link>
                     </li>
-                    <li className='p-4 text-4xl hover:text-peach'>
+                    <li onClick={handleNav} className='p-4 text-4xl hover:text-peach'>
+                        <Link href='/blog'>Blog</Link>
+                    </li>
+                    <li onClick={handleNav} className='p-4 text-4xl hover:text-peach'>
                         <Link href='/contact'>Contact</Link>
                     </li>
                 </ul>

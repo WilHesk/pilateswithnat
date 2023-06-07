@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Page from '../components/Page';
+import { Contact } from '../components/Contact';
 
-export default function Contact() {
+export default function contact() {
   return (
     <div>
       <Head>
@@ -11,10 +12,12 @@ export default function Contact() {
       </Head>
       
       <div> 
-      <Page heading='Join Our Community' heading2="Please get in touch if you're thinking about coming to a class. I want you to feel comfortable and welcome." 
-      para="It's great if we can get to know each other a little bit before you join our class, so I can have you in my thoughts as I create my class plans. My website is under construction, so until I have a fancy form - please subscribe to my mailing list by sending me an email and I'll get in touch. I won't send you loads of emails, just information about classes. Thanks, hopefully speak to you soon!" message2="openmindedfitnessgroup@gmail.com"/>   
-      
+      <Page 
+      heading='Join Our Community' 
+      heading2="I want you to feel comfortable and welcome." 
+      para="It's great if we can get to know each other a little bit before you join our class, so I can have you in my thoughts as I create my class plans. Please subscribe to my mailing list by below and I'll get in touch. I won't send you loads of emails, just information about classes. Thanks, hopefully speak to you soon!" />   
       </div>
+      <Contact />
     
     </div>
     

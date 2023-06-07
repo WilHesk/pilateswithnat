@@ -19,6 +19,7 @@ module.exports = {
       'dkgrey': '#20232b',
       'ltblue': '#99c0df',
       'pink': '#F1C0B0',
+      'black': '#000000',
       
     },
     extend: {},
