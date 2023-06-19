@@ -15,11 +15,8 @@ export default function Home() {
       <Hero 
       heading='Community Pilates'
       heading2='For Your Body, For Every Body'
-      message="When there's a voice inside your head saying I CAN'T"
-      message2="Our community is here to remind you that YOU CAN" 
       button='Try a class'
       /> 
-      <Instagram />
       <Contact />
     </div>
   

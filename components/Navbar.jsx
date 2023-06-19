@@ -34,13 +34,13 @@ const Navbar = () => {
             
         
                 <div className='flex'>
-                    <div className='flex pr-4'>
+                    <div className='flex p-2 pr-4'>
                         <Link href='/'>
                             <Image
                             
                             src="/pilates-with-nat-icon-128x128.png"
-                            width={60}
-                            height={60}
+                            width={40}
+                            height={40}
                             alt="Pilates with Nat icon logo"
                             />
                         </Link>
@@ -60,10 +60,6 @@ const Navbar = () => {
                     <li className='p-4 hover:text-peach font-light'>
                         <Link href='/'>Home</Link>
                     </li>
-
-                    <li className='p-4 hover:text-peach font-light'>
-                        <Link href='/blog'>Blog</Link>
-                    </li>
                     
                     <li className='p-4 hover:text-peach font-light'>
                         <Link href='/contact'>Contact</Link>
@@ -71,11 +67,11 @@ const Navbar = () => {
                 </ul>
             </div>
             {/* Mobile Button */}
-            <div onClick={handleNav} className='block sm:hidden z-10'>
+            <div onClick={handleNav} className='block sm:hidden z-10 px-2 py-4'>
                 {nav ? (
-                    <AiOutlineClose size={20} style={{color: `${textColor}`}} /> 
+                    <AiOutlineClose size={30} style={{color: `${textColor}`}} /> 
                 ) : (
-                    <AiOutlineMenu size={20} style={{color: `${textColor}`}} />
+                    <AiOutlineMenu size={30} style={{color: `${textColor}`}} />
                 )}
             </div>
             {/* Mobile Menu */}
@@ -89,9 +85,6 @@ const Navbar = () => {
                 <ul>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-peach'>
                         <Link href='/'>Home</Link>
-                    </li>
-                    <li onClick={handleNav} className='p-4 text-4xl hover:text-peach'>
-                        <Link href='/blog'>Blog</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-peach'>
                         <Link href='/contact'>Contact</Link>
