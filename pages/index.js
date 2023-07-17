@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Hero from '../components/Hero'
 import React from 'react';
 import Instagram from './Instagram';
-import { Contact } from '../components/Contact';
+import Newsletter from '../components/newsletter';
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       heading2='For Your Body, For Every Body'
       button='Try a class'
       /> 
-      <Contact />
+      <Newsletter />
     </div>
   
   );

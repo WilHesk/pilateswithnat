@@ -25,7 +25,7 @@ export default () => {
         Your Community Classes
       </h2>
       <p className="mt-2 text-dkblue font-light w-1/2 text-left">
-        Sign up for information on community classes by entering your email below. I don't send lots of emails, but I can let you know about up to class times and locations.
+        Sign up for information on community classes by entering your email below. I don't send lots of emails, but I can keep you up to date with class times and locations.
       </p>
       <div className="flex sm:w-4/5 justify-center mt-4 mb-11 flex-col lg:flex-row">
         <input
