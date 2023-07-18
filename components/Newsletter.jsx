@@ -1,7 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
 
-
 export default () => {
   const [email, setEmail] = useState("");
   const [state, setState] = useState("IDLE");
@@ -29,7 +28,7 @@ export default () => {
       </p>
       <div className="flex sm:w-4/5 justify-center mt-4 mb-11 flex-col lg:flex-row">
         <input
-          className="appearance-none mb-2 lg:mb-0 w-full lg:w-2/3 border border-gray-500 rounded py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:border-gray-600"
+          className="appearance-none mb-2 lg:mb-0 w-full lg:w-2/3 border border-gray-500 rounded py-2 px-4 text-gray-700 text-dkblue leading-tight focus:outline-none focus:border-gray-600"
           type="text"
           placeholder="Enter Email"
           value={email}
