@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Page from '../components/Page';
-import Newsletter from '../components/newsletter';
+import Newsletter from '../components/Newsletter';
 
 export default function contact() {
   return (
