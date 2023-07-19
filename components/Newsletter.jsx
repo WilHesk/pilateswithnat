@@ -19,11 +19,11 @@ export default () => {
   };
 
   return (
-    <div className="flex flex-col items-center bg-peach text-white mt-1">
-      <h2 className="text-3xl font-bold mt-8 text-left">
+    <div className="flex place-content-center flex-col py-28 items-center align-middle bg-peach text-white mt-1">
+      <h2 className="text-3xl font-bold mt-8 mb-4 md: w-1/2 text-left ">
         Your Community Classes
       </h2>
-      <p className="mt-2 text-dkblue font-light w-1/2 text-left">
+      <p className="mt-2 mb-4 text-dkblue font-light w-1/2 text-left">
         Sign up for information on community classes by entering your email below. I don't send lots of emails, but I can keep you up to date with class times and locations.
       </p>
       <div className="flex sm:w-4/5 justify-center mt-4 mb-11 flex-col lg:flex-row">
