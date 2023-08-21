@@ -16,6 +16,7 @@ export default function Home() {
       heading='Community Pilates'
       heading2='For Your Body, For Every Body'
       button='Try a class'
+      message='Scroll Down to Subscribe'
       /> 
       <Newsletter />
     </div>

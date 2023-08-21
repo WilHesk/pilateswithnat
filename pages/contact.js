@@ -14,8 +14,8 @@ export default function contact() {
       <div> 
       <Page 
       heading='Join Our Community' 
-      heading2="I want you to feel comfortable and welcome." 
-      para="It's great if I can get to know you a bit before you join a class. That way I can have you in my thoughts as I create my class plans. Please subscribe to my mailing list below and I'll get back to you. I won't send you loads of emails, just information about classes - Thanks, hopefully speak to you soon!" />   
+      heading2="Scroll down to subscribe for class info" 
+      para="I want you to feel comfortable and welcome, so it's great if I can get to know you a bit before you join a class. I won't send you loads of emails, just information about classes - Thanks, hopefully speak to you soon!" />   
       </div>
       <Newsletter />
     
