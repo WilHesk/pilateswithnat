@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/Hero'
 import React from 'react';
-import Instagram from './Instagram';
 import Newsletter from '../components/Newsletter';
 
 export default function Home() {

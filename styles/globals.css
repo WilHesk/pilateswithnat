@@ -4,9 +4,13 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', 'sans-serif', 'Calistoga';
 }
 
 .custom-img {
-  background-image: url('/pilates-with-nat-hero-img.jpg');
+  background-image: url('/PWN-hero-image.jpg');
+}
+
+.main-title {
+  font-family: 'Calistoga';
 }

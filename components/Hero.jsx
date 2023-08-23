@@ -8,8 +8,8 @@ const Hero = ({heading, message, button, heading2, message2, message3 }) => {
         <div className='absolute top-0 left-0 right-0 bottom-0 bg-dkgrey/70 z-[2]' />
         <div className=' text-white z-[2] mt-[4rem] mr-[20%] ml-[30%]'>
             <div>
-              <h2 className='text-5xl font-normal '>{heading}</h2>
-              <h2 className='pt-1 text-2xl font-thin '>{heading2}</h2>
+              <h1 className='main-title text-6xl'>{heading}</h1>
+              <h2 className='pt-1 text-2xl font-thin text-peach '>{heading2}</h2>
               <p className='pt-5 text-med  font-thin'>{message}</p>
               <p className='pt-5 text-med  font-thin'>{message2}</p>
               <p className='pt-5 text-med  font-thin mb-8'>{message3}</p>
