@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Hero = ({heading, message, button, heading2, message2, message3 }) => {
   return (
-    <div className='flex items-center justify-center h-screen bg-fixed bg-center bg-cover bg-cover custom-img-mob md:custom-img'>
+    <div className='flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img'>
         {/* Overlay */}
         <div className='absolute top-0 left-0 right-0 bottom-0 bg-dkgrey/70 z-[2]' />
         <div className=' text-white z-[2] mt-[4rem] mx-[8%] sm:mr-[15%] sm:ml-[25%]'>
