@@ -11,6 +11,9 @@ html {
   background-image: url('/PWN-hero-image.jpg');
 }
 
+.custom-img-mob {
+  background-image: url('/PWN-hero-image-mob.jpg');
+}
 .main-title {
   font-family: 'Calistoga';
 }
